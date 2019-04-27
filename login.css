@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(love.jpg);
+	background-size: cover;
+}
+.container{
+	position: absolute;
+	height: 400px;
+	width:300px;
+	background-color: black;
+	top: 20%;
+	left: 40%;
+	color: white;
+	opacity: .6;
+}
+form{
+	margin: 20px;
+
+
+
+}
+form input[type="submit"]{
+	margin-top: 30px;
+	width:55%;
+	background-color: black;
+	color: white;
+	margin-left: 15px;
+	text-align: center;
+	cursor: pointer;
+
+}
+form input[type="text"]{
+	background-color: black;
+	opacity: .6;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: white;
+}
+form input[type="password"]{
+	background-color: black;
+	opacity: .6;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: white;
+}
+h2{
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: italic;
+	margin-left: 10px;
+}
+label{
+	color:white;
+}
+ form input[type="submit"]:hover{
+background-color: white;
+color: black;
+}
